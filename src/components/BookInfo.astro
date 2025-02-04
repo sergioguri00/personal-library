@@ -83,20 +83,23 @@ const { book } = Astro.props
   </style>
   
   <script>
-      document.addEventListener("astro:page-load", () => {
-        const grid = document.getElementsByClassName("grid-info")[0] as HTMLElement;
-        const knowMoreButton = document.getElementById("know-more-button");
-        const sinopsis = document.getElementById("holaaa") as HTMLElement;
-        const firstHeight = sinopsis.offsetHeight;
-        knowMoreButton?.addEventListener("click", () => {
-          const moreSinopsis = document.getElementById("moreSinopsis");
-          const sinopsis = document.getElementById("holaaa") as HTMLElement;
-          const points = document.getElementById("...");
-          points?.classList.add("hidden");
-          moreSinopsis?.classList.remove("hidden");
-          knowMoreButton?.classList.add("hidden");
-          const secondHeight = sinopsis.offsetHeight;
-          grid.style.height = `${grid.offsetHeight + (secondHeight - firstHeight)}px`;
-        });
+    const loadScript = () => {
+      const grid = document.getElementsByClassName("grid-info")[0] as HTMLElement;
+      const knowMoreButton = document.getElementById("know-more-button");
+      const sinopsis = document.getElementById("holaaa") as HTMLElement;
+      const firstHeight = sinopsis.offsetHeight;
+      knowMoreButton?.addEventListener("click", () => {
+      const moreSinopsis = document.getElementById("moreSinopsis");
+      const sinopsis = document.getElementById("holaaa") as HTMLElement;
+      const points = document.getElementById("...");
+      points?.classList.add("hidden");
+      moreSinopsis?.classList.remove("hidden");
+      knowMoreButton?.classList.add("hidden");
+      const secondHeight = sinopsis.offsetHeight;
+      grid.style.height = `${grid.offsetHeight + (secondHeight - firstHeight)}px`;
       });
+    };
+
+    document.addEventListener("astro:page-load", loadScript);
+    document.addEventListener("astro:after-swap", loadScript);
   </script>
