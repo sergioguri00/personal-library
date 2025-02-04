@@ -1,0 +1,19 @@
+---
+const page = Astro.url.pathname;
+---
+
+<nav class="flex flex-row justify-center gap-4 py-4">
+  <a
+    href="/"
+    class={page === "/"
+      ? "text-[#FFEE8C] border-b-[1px] border-[#FFEE8C]"
+      : "text-white hover:text-[#FFEE8C] hover:scale-105 transition"}>Inicio</a
+  >
+  <a
+    href="/about"
+    class={page === "/about"
+      ? "text-[#FFEE8C] border-b-[1px] border-[#FFEE8C]"
+      : "text-white hover:text-[#FFEE8C] hover:scale-105 transition"}
+    >Acerca de</a
+  >
+</nav>

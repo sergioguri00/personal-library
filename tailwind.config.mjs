@@ -5,6 +5,7 @@ export default {
       extend: {
         colors: {
           mainblack: '#00001B',
+          mainyellow: '#FFEE8C'
         }
       }
     },
