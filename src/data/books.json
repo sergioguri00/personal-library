@@ -1,0 +1,336 @@
+[
+    {
+        "id": 1,
+        "title": "El Imperio Final",
+        "author": "Brandon Sanderson",
+        "saga": "Nacidos de la Bruma",
+        "sagaOrder": 1,
+        "year": 2006,
+        "sinopsis": "Las brumas gobiernan la noche. El lord Legislador domina el mundo.\nEn otros tiempos, un heroe se alzó para salvar la humanidad. Fracasó.\nDesde entonces, el mundo es un erial de ceniza y niebla gobernado por un emperador inmortal conocido como el lord Legislador.\nPero la esperanza perdura. Una nueva revuelta cobra forma cimentándose en la treta definitiva: la astucia de un brillante genio del crimen y la determinación de una heroína insólita, una joven ladrona callejera que deberá aprender a controlar el poder de los nacidos de la bruma."
+    },
+    {
+        "id": 2,
+        "title": "El Pozo de la Ascensión",
+        "author": "Brandon Sanderson",
+        "saga": "Nacidos de la Bruma",
+        "sagaOrder": 2,
+        "year": 2007,
+        "sinopsis": "El mal ha sido derrotado. Pero la guerra acaba de empezar.\nLograron lo imposible y pusieron fin al reinado milenario de lord Legislador. Ahora Vin, que ha pasado de ser una ladronzuela a una poderosa nacida de la bruma, y Elend Venture, el joven noble e idealista que la ama, deberán construir una sociedad nueva y próspera sobre las cenizas de ese imperio derrotado.\nMientras las tensiones siguen creciendo tras la revuelta, una antigua leyenda ofrece un atisbo de esperanza para el pueblo. Sin embargo, incluso si las habladurías son ciertas, nadie sabe dónde se encuentra el Pozo de la Ascensión ni que clase de poder otorga.\nEs muy posible que matar al lord Legislador fuera la parte fácil. Sobrevivir a las consecuencias de su caída será el verdadero desafío."
+    },
+    {
+        "id": 3,
+        "title": "El Héroe de las Eras",
+        "author": "Brandon Sanderson",
+        "saga": "Nacidos de la Bruma",
+        "sagaOrder": 3,
+        "year": 2008,
+        "sinopsis": "Vin cumplió la profecía y liberó el poder acumulado en el Pozo de la Ascensión. Sin embargo, todo resultó ser una trampa, y ahora el ser divino llamado Ruina campa a sus anchas por el mundo decidido a arrasarlo con terremotos y ríos de fuego.\nTras haber esquivado la muerte convirtiendose en un nacido de la bruma, el emperador Elend Venture confía en que las pistas que dejó el lord Legislador les sirvan para contraatacar. Las profecías hablan de un heroe, pero ¿no estaban corrompidas? Vin deberá desenmarañar la verdad para compensar su error. Solo así llegará a ser el Heroe de las Eras antes de que Ruina aniquile toda la vida sobre el planeta."
+    },
+    {
+        "id": 4,
+        "title": "Por si las voces vuelven",
+        "author": "Ángel Martín",
+        "saga": null,
+        "sagaOrder": null,
+        "year": 2021,
+        "sinopsis": "Hace unos años me rompí por completo. Tanto como para que tuvieran que atarme a la cama de un hospital psiquiátrico para evitar que pudiera hacerme daño.\nNo tengo ni idea de cuándo empezó a formarse mi locura. A lo mejor nací genéticamente predispuesto.\nA lo mejor fui macerando una depresión al callarme ciertas cosas por no preocupar a los demás.\nO a lo mejor simplemente hay cerebros que de la noche a la mañana hacen crec y se acabó.\nCuando cuentas abiertamente que se te ha pirado la cabeza la gente enseguida le pone el sello de tabú. Aunque este libro lo he escrito para mí, por si las voces vuelven, es para cualquiera que haya pasado o esté pasando por algo parecido, y así romper de una vez por todas el estigma de las enfermedades mentales. Pero si simplemente te apetece jugar a ver el mundo como yo lo vi mientras perdí el contacto con la realidad, este libro también es para ti.\nSi escuchas bien las voces, descubrirás cosas fascinantes como esta:\nNo necesitas llegar a tocar fondo para reconstruirte desde cero.\n¿Empezamos?"
+    },
+    {
+        "id": 5,
+        "title": "El Camino de los Reyes",
+        "author": "Brandon Sanderson",
+        "saga": "El Archivo de las Tormentas",
+        "sagaOrder": 1,
+        "year": 2010,
+        "sinopsis": "Anhelo los días previos a la Última Desolación.\nLos días en que los Heraldos nos abandonaron y los Caballeros Radiantes se giraron en nuestra contra. Un tiempo en que aún había magia en el mundo y honor en el corazón de los hombres.\nEl mundo fue nuestro, pero lo perdimos. Probablemente no hay nada más estimulante para las almas de los hombres que la victoria.\n¿O tal vez fue la victoria una ilusión durante todo ese tiempo? ¿Comprendieron nuestros enemigos que cuanto más duramente luchaban, más resistíamos nosotros? Quizá vieron que el fuego y el martillo tan solo producían mejores espadas. Pero ignoraron el acero durante el tiempo suficiente para oxidarse.\nHay cuatro personas a las que observamos. La primera es el médico, quien dejó de curar para convertirse en soldado durante la guerra más brutal de nuestro tiempo. La segunda es el asesino, un homicida que llora siempre que mata. La tercera es la mentirosa, una joven que viste un manto de erudita sobre un corazón de ladrona. Por último está el alto príncipe, un guerrero que mira al pasado mientras languidece su sed de guerra.\nEl mundo puede cambiar. La potenciación y el uso de las esquirlas pueden aparecer de nuevo, la magia de los días pasados puede volver a ser nuestra. Esas cuatro personas son la clave.\nUna de ellas nos redimirá. Y una de ellas nos destruirá."
+    },
+    {
+        "id": 6,
+        "title": "El Aliento de los Dioses",
+        "author": "Brandon Sanderson",
+        "saga": null,
+        "sagaOrder": null,
+        "year": 2009,
+        "sinopsis": "Hace años, el monarca de Idris firmó un tratado con el reino de Hallandren según el cual el rey Dedelin enviaría a su hija mayor, Vivenna, para casarse con Susebron, el rey-dios de Hallabdren. Vivenna ha sido adiestrada durante toda su vida para ser una novia adecuada para Susebron y así cumplir con su deber y ayudar a forjar una paz estable entre los dos reinos. Ese era el plan, pero el monarca de Idris envía a su hija Siri, desobediente e independiente, en lugar de Vivenna.\nMientras intenta encontrar su lugar en la corte de Susebron, Siri descubre la verdad oculta sobre el rey-dios. En Idris, Vivenna se siente intranquila y teme que su hermana no esté preparada para esa nueva vida, por lo que decide viajar a Hallandren. Allí se reúne con la gente de Idris que trabaja en la capital, Telir, y comienza una nueva vida de espionaje y sabotaje. El plan de Vivenna es rescatar a Siri, aunque tal vez esta ni necesite ni desee ser salvada."
+    },
+    {
+        "id": 7,
+        "title": "Palabras Radiantes",
+        "author": "Brandon Sanderson",
+        "saga": "El Archivo de las Tormentas",
+        "sagaOrder": 2,
+        "year": 2014,
+        "sinopsis": "Los Caballeros Radiantes deben volver a alzarse.\nLos antiguos juramentos por fin se han pronunciado. Los hombres buscan lo que se perdió. Temo que la búsqueda los destruya.\nEs la naturaleza de la magia. Un alma rota tiene grietas donde puede colarse algo más. Las potencias, los poderes de la creación misma, pueden abrazar un alma rota, pero también pueden ampliar sus fisuras.\nEl Corredor del Viento está perdido en una tierra quebrada, en equilibro entre la venganza y el honor. La Tejedora de Luz, lentamente consumida por su pasado, busca la mentira en la que debe convertirse. El Forjador de Vínculos, nacido en la sangre y la muerte, se esfuerza ahora por reconstruir lo que fue destruido. La Exploradora, a caballo entre los destinos de dos pueblos, se ve obligada a elegir entre una muerte lenta y una terrible traición a todo en lo que cree.\nYa es hora de despertarlos, pues acecha la eterna tormenta.\nY el asesino ha llegado."
+    },
+    {
+        "id": 8,
+        "title": "Danzante del Filo",
+        "author": "Brandon Sanderson",
+        "saga": "El Archivo de las Tormentas",
+        "sagaOrder": 2.5,
+        "year": 2016,
+        "sinopsis": "Tres años atrás, Lift le pidió a una diosa que detuviese su envejecimiento, un deseo que ella creía concedido. Ahora, en Danzante del Filo, la apenas adolescente y recién Caballera Radiante descubre que el tiempo no se detiene para nadie. Aunque el joven emperador azishiano le garantizase su seguridad de su ejecutor, que ella solo conoce como Oscuridad, la vida en la corte está sofocando el espíritu libre de Lift, quien no puede evitar dirigirse a Yeddaw cuando escucha que el implacable Oscuridad se encuentra allí dando caza a gente como ella con poderes recientemente descubiertos. Los oprimidos en Yeddaw no tienen defensor, y Lift sabe que debe aceptar esta increíble responsabilidad."
+    },
+    {
+        "id": 9,
+        "title": "Juramentada",
+        "author": "Brandon Sanderson",
+        "saga": "El Archivo de las Tormentas",
+        "sagaOrder": 3,
+        "year": 2017,
+        "sinopsis": "La humanidad se enfrenta a una nueva Desolación con el regreso de los Portadores del Vacío, un enemigo tan grande en número como en sed de venganza. La victoria fugaz de los ejércitos alezi de Dalinar Kholin ha tenido consecuencias: el enemigo parshendi ha convocado la violenta tormenta eterna, que arrasa el mundo y hace que los hasta ahora pacíficos parshmenios descubran con horror que llevan un milenio esclavizados por los humanos. Al mismo tiempo, en una desesperada huida para alertar a su familia de la amenaza, Kaladin se pregunta si la repentina ira de los parshmenios está justificada.\nEntretanto, en la torre de la ciudad de Urithiru, a salvo de la tormenta, Shallan Davar investiga las maravillas de la antigua fortaleza de los Caballeros Radiantes y desentierra oscuros secretos que acechan en las profundidades. Dalinar descubre entonces que su sagrada misión de unificar su tierra natal de Alezkar era corta de miras. A menos que todas las naciones sean capaces de unirse y dejar de lado el pasado sangriento de Dalinar, ni siquiera la restauración de los Caballeros Radiantes conseguirá impedir el fin de la civilización."
+    },
+    {
+        "id": 10,
+        "title": "Esquirla del Amanecer",
+        "author": "Brandon Sanderson",
+        "saga": "El Archivo de las Tormentas",
+        "sagaOrder": 3.5,
+        "year": 2020,
+        "sinopsis": "Tras el descubrimiento de un barco fantasma, cuya tripulación al parecer murió intentando llegar a la isla de Akinah, rodeada por tormentas, Navani Kholin deberá enviar una expedición para asegurarse de que la isla no haya caído en manos enemigas. Los Caballeros Radiantes que vuelan demasiado cerca de Akinah se encuentran de pronto con su luz tormentosa drenada, por lo que la travesía debe realizarse por mar.\nLa naviera Rysn Ftori perdió el uso de las piernas, pero ganó la compañía de Chiri-Chiri, una larkin alada que se alimenta de luz tormentosa y pertenece a una especie que se creía extinta. La mascota de Rysn ha enfermado y la única esperanza de que Chiri-Chiri se recupere podría encontrarse en el hogar ancestral de los larkin, Akinah. Con la ayuda de Lopen, el Corredor del Viento que antes era manco, Rysn tendrá que aceptar el encargo de Navani y navegar hacia el interior de la peligrosa tormenta, de la que nadie ha vuelto con vida. Si su tripulación no logra desvelar los secretos de la isla oculta antes de que caiga sobre ellos la ira de sus antiguos guardianes, el destino de Roshar y de todo el Cosmere penderá de un hilo."
+    },
+    {
+        "id": 11,
+        "title": "El hombre en busca de sentido",
+        "author": "Viktor Emil Frankl",
+        "saga": null,
+        "sagaOrder": null,
+        "year": 1946,
+        "sinopsis": "El doctor Frankl, psiquiatra y escritor, suele preguntar a sus pacientes aquejados de múltiples padecimientos: «¿Por qué no se suicida usted? Y muchas veces, de las respuestas extrae una orientación para la psicoterapia a aplicar: a éste, lo que le ata a la vida son los hijos; al otro, un talento, una habilidad sin explotar; a un tercero, quizás, sólo unos cuantos recuerdos que merece la pena rescatar del olvido. Tejer estas tenues hebras de vidas rotas en una urdimbre firme, coherente, significativa y responsable es el objeto con que se enfrenta la logoterapia. En esta obra, Viktor E. Frankl explica la experiencia que le llevó al descubrimiento de la logoterapia. Prisionero, durante mucho tiempo, en los desalmados campos de concentración, él mismo sintió en su propio ser lo que significaba una existencia desnuda. ¿Cómo pudo él que todo lo había perdido, que había visto destruir todo lo que valía la pena, que padeció hambre, frío, brutalidades sin fin, que tantas veces estuvo a punto del exterminio, cómo pudo aceptar que la vida fuera digna de vivirla? El psiquiatra que personalmente ha tenido que enfrentarse a tales rigores merece que se le escuche, pues nadie como él para juzgar nuestra condición humana sabia y compasivamente. Las palabras del doctor Frankl alcanzan un temple sorprendentemente esperanzador sobre la capacidad humana de trascender sus dificultades y descubrir la verdad conveniente y orientadora."
+    },
+    {
+        "id": 12,
+        "title": "El Ritmo de la Guerra",
+        "author": "Brandon Sanderson",
+        "saga": "El Archivo de las Tormentas",
+        "sagaOrder": 4,
+        "year": 2020,
+        "sinopsis": "Tras forjar una coalición de resistencia humana contra la invasión enemiga, Dalinar Kholin y sus Caballeros Radiantes llevan un año librando una guerra prolongada y brutal. Ningún bando ha logrado obtener ventaja.\nMientras los nuevos descubrimientos tecnológicos cambian el trasfondo de la contienda, el enemigo prepara una operación audaz y peligrosa. La carrera armamentística resultante desafiará el mismo núcleo de los ideales Radiantes y quizá revele los secretos de la antiquísima torre en la que una vez residió toda su fuerza."
+    },
+    {
+        "id": 13,
+        "title": "Aleación de Ley",
+        "author": "Brandon Sanderson",
+        "saga": "Nacidos de la Bruma",
+        "sagaOrder": 4,
+        "year": 2011,
+        "sinopsis": "Han pasado ya trescientos años desde los acontecimientos narrados en la trilogía Nacidos de la Bruma (Mistborn) y Scadrial se encuentra ahora cerca de la modernidad: ferrocarriles, canales, iluminación eléctrica y los primeros rascacielos invaden el planeta.\nAunque la ciencia y la tecnología están alcanzando nuevos retos, la antigua magia de la alomancia continúa desempeñando un papel fundamental. En una zona conocida como los Áridos existen herramientas cruciales para aquellos hombres y mujeres que intentan establecer el orden y la justicia. Uno de estos hombres es Lord Waxillium Ladrian, experto en metales y en el uso de la alomancia y la feruquimia. Después de vivir veinte años en los Áridos, Wax se ha visto obligado, por una tragedia familiar, a volver a la metrópolis de Elendel. Sin embargo, y a su pesar, deberá guardar las armas y asumir las obligaciones que exige el hecho de estar rodeado de la clase noble. O al menos eso cree, ya que aún no sabe que las mansiones y las elegantes calles arboladas de la ciudad pueden ser incluso más peligrosas que las llanuras de los Áridos.\nUn skyline metálico de bruma, de ceniza y vapor conquista el cielo amenazando a todos aquellos que viven y luchan debajo de él."
+    },
+    {
+        "id": 14,
+        "title": "Sombras de Identidad",
+        "author": "Brandon Sanderson",
+        "saga": "Nacidos de la Bruma",
+        "sagaOrder": 5,
+        "year": 2015,
+        "sinopsis": "La sociedad de Nacidos de la Bruma ha evolucionado en una fusión de magia y tecnología en la que la economía se expande, la democracia se enfrenta a la corrupción y la religión se convierte en una potencia cultural cada vez más influyente, con cuatro fes distintas enfrentadas por la captación de conversos.\nEsta sociedad tan animada y optimista, aunque todavía tambaleante, se enfrenta ahora a su primera amenaza de terrorismo, crímenes cuyo objetivo es fomentar el descontento de la clase trabajadora y avivar las llamas de los conflictos religiosos. Wax y Wayne, con la asistencia de la adorable y brillante Marasi, deberán dar al traste con la conspiración antes de que las revueltas civiles frenen por completo el progreso de Scadrial."
+    },
+    {
+        "id": 15,
+        "title": "Brazales de Duelo",
+        "author": "Brandon Sanderson",
+        "saga": "Nacidos de la Bruma",
+        "sagaOrder": 6,
+        "year": 2016,
+        "sinopsis": "La cuenca de Elendel es un polvorín. El descontento de los trabajadores se suma a las diferencias irreconciliables entre la capital y las demás ciudades de la cuenca; Elendel asegura gobernarlas mientras sus habitantes denuncian la opresión a la que se sienten sometidos. De pronto, llega a oídos de Waxillium Ladrian que un académico kandra podría haber localizado los legendarios Brazales de Duelo, un arma capaz de sembrar la destrucción y dar al traste con el actual equilibrio de poder imperante en la cuenca.\nPero perseguir mitos no se cuenta entre las atribulaciones de un representante de la ley como él, acuciado por problemas más inmediatos. Pero ¿qué puede hacer cuando sospecha que ha sido engañado por el mismísimo Dios? La revelación resultante sacudirá los cimientos de todo cuanto creías saber sobre el mundo de «Nacidos de la Bruma [Mistborn]»."
+    },
+    {
+        "id": 16,
+        "title": "El Undécimo Metal",
+        "author": "Brandon Sanderson",
+        "saga": "Arcanum Ilimitado",
+        "sagaOrder": 3,
+        "year": 2016,
+        "sinopsis": "El Undécimo Metal es una historia que precede la saga «Nacidos de la Bruma (Mistborn)», obra imprescindible del Cosmere, el universo destinado a dar forma a la serie más extensa y fascinante jamás escrita en el ámbito de la fantasía épica. Del autor bestseller del New York Times."
+    },
+    {
+        "id": 17,
+        "title": "Historia Secreta",
+        "author": "Brandon Sanderson",
+        "saga": "Arcanum Ilimitado",
+        "sagaOrder": 5,
+        "year": 2016,
+        "sinopsis": "Nacidos de la Bruma: Historia secreta es una historia complementaria de la trilogía original. Como tal, contiene enormes spoilers de los libros El Imperio Final, el Pozo de la Ascensión y el Héroe de las Eras. También contiene spoilers muy pequeños del libro Brazales de Duelo. Nacidos de la Bruma: Historia secreta se basa en los personajes, los eventos y el desarrollo establecido en el mundo de la trilogía original. Leerlo sin ese trasfondo será un proceso confuso en el mejor de los casos. En resumen, este no es el lugar para comenzar su viaje a Nacidos de la Bruma. (Aunque si has leído la trilogía, pero ha pasado un tiempo, estarás bien, siempre que recuerdes a los personajes y la trama general de los libros). Decir algo más aquí corre el riesgo de revelar demasiado. Incluso el conocimiento de la existencia de esta historia es, de alguna manera, un spoiler. Siempre hay otro secreto."
+    },
+    {
+        "id": 18,
+        "title": "Elantris",
+        "author": "Brandon Sanderson",
+        "saga": null,
+        "sagaOrder": null,
+        "year": 2005,
+        "sinopsis": "Bienvenidos a la ciudad de Elantris, la poderosa y bella capital de Arelon llamada <<la ciudad de los dioses>>. Antaño famosa sede de inmortales, lugar repleto de poderosa magia, Elantris ha caído en desgracia. Ahora solo acoge a los nuevos <<muertos en vida>>, postrados en una insufrible <<no-vida>> tras una misteriosa y terrible transformación.\n Un matrimonio de Estado destinado a unir los reinos de Arelon y Teod se frustra, ya que el novio, Raoden, el príncipe de Arelon, sufre inesperadamente la Transformación, se convierte en un <<muerto en vida>> y debe refugiarse en Elantris. Su reciente esposa, la princesa Sarene de Teod, creyendolo muerto, se ve obligada a incorporarse a la vida de Arelon y su nueva capital, Kae. Mientras, el embajador y alto sacerdote de otro reino vecino, Fjordell, usará su habilidad política para intentar dominar Arelod y Teod con el propósito de someterlos a su emperador y su dios."
+    },
+    {
+        "id": 19,
+        "title": "El Alma del Emperador",
+        "author": "Brandon Sanderson",
+        "saga": "Arcanum Ilimitado",
+        "sagaOrder": 2,
+        "year": 2016,
+        "sinopsis": "Shai es una falsificadora, una extranjera que puede copiar y recrear impecablemente cualquier objeto reescribiendo su historia con una habilidosa magia. Aunque ha sido condenada a muerte tras intentar robar el cetro del emperador, se le da una oportunidad de salvarse. A pesar de que su habilidad como falsificadora es considerada una abominación por sus captores, Shai intentará crear una nueva alma para el emperador, que está casi muerto por el ataque de unos asesinos.\nAl profundizar en su vida, descubre la verdadera naturaleza del emperador Ashravan y la oportunidad de explotarla. Su único aliado posible es alguien verdaderamente leal al emperador, pero el consejero Gaotona debe superar sus prejuicios para comprender que su falsificación es tanto un arte como un engaño.\nDeduciendo hábilmente las maquinaciones de sus captores, Shai necesita un plan perfecto para escapar.\nEl destino del reino reside en una tarea imposible.\n¿Es posible crear una falsificación de un alma tan convincente que sea mejor que la propia alma?"
+    },
+    {
+        "id": 20,
+        "title": "La Esperanza de Elantris",
+        "author": "Brandon Sanderson",
+        "saga": "Arcanum Ilimitado",
+        "sagaOrder": 1,
+        "year": 2016,
+        "sinopsis": "La historia de este relato merece ser contada. Brandon Sanderson la escribió en 2006, cuando estaba saliendo con una joven profesora. Una de las alumnas, llamada Matisse, de aquella profesora presentó un trabajo muy completo sobre Elantris, en el que se incluían esbozos de los personajes, muestras de las telas de los trajes, y todo tipo de materiales sobre el universo de la obra, formando una auténtica experiencia multisensorial. Cuando Branson se enteró y vio el proyecto, se le ocurrió contar una de las historias ocultas de Elantris, y decidió hacerlo desde el punto de vista de un personaje que bautizó con el nombre de la alumna. No solo la alumna quedó encantada al enterarse de que Brandon salía con su profesora y que había escrito un cuento con un personaje que se llamaba como ella, sino que la joven profesora quedó tan impresionada por aquel escritor que, con el tiempo, se casó con él"
+    },
+    {
+        "id": 21,
+        "title": "El Metal Perdido",
+        "author": "Brandon Sanderson",
+        "saga": "Nacidos de la Bruma",
+        "sagaOrder": 7,
+        "year": 2022,
+        "sinopsis": "Waxillium Ladrian, vigilante de la ley convertido en senador de la gran ciudad, lleva años intentando dar caza a la sombría organización llamada el Grupo -entre cuyos líderes se cuentan su difunto tío y su hermana-, desde que empezaron a secuestrar a personas con el poder de la alomancia en su linaje. Cuando la detective Marasi Colms y su compañero Wayne encuentran un almacén ilegal de armas con destino a la ciudad exterior de Bilming, se abre ante ellos una nueva pista. El conflicto entre Elendel y las ciudades exteriores favorece al Grupo, que ya extiende sus tentáculos hasta el Senado de Elendel -cuya corrupción pretenden destapar Wax y Steris-, y la ciudad de Bilming está incluso más implicada de lo que creían.\nDespués de que Wax descubra un nuevo tipo de explosivo capaz de desatar una destrucción sin precedentes y comprenda que el Grupo ya debe de tenerlo, un kandra inmortal al servicio del dios de Scadrial, Armonía, le revela que Bilming ha caído bajo la influencia de otro dios: Trell, venerado por el Grupo. Pero Trell no es el único factor que interviene procedente del amplio Cosmere, puesto que a Marasi la reclutan unas personas de fuera del planeta dotadas de extrañas capacidades, que afirman que su objetivo es proteger Scadrial... a toda costa.\nWax deberá decidir si deja a un lado las dificultades de su relación con Dios y se convierte de nuevo en la espada que Armonía lo ha estado preparando para ser. Si nadie da el paso y actúa como el héroe que Scadrial necesita, el planeta y sus millones de habitantes sufrirán una repentina y calamitosa ruina."
+    },
+    {
+        "id": 22,
+        "title": "Trenza del Mar Esmeralda",
+        "author": "Brandon Sanderson",
+        "saga": "Proyectos Secretos",
+        "sagaOrder": 1,
+        "year": 2023,
+        "sinopsis": "En su isla natal sobre un océano verde esmeralda, la única vida que Trenza conoce es sencilla, marcada por el placer de coleccionar las tazas que traen los marineros de tierras lejanas y escuchar las historias que le cuenta su amigo Charlie. Pero cuando el padre de Charlie se lo lleva en barco para buscarle esposa y sucede una catástrofe, Trenza deberá colarse como polizona en un barco y partir en busca de la hechicera que habita en el mortífero mar de Medianoche. Sobre unos océanos de esporas repletos de piratas, ¿podrá Trenza abandonar su tranquila vida y crearse un lugar en un océano donde una sola gota puede significar la muerte instantánea?"
+    },
+    {
+        "id": 23,
+        "title": "Sombras por Silencio en los Bosques del Infierno",
+        "author": "Brandon Sanderson",
+        "saga": "Arcanum Ilimitado",
+        "sagaOrder": 7,
+        "year": 2016,
+        "sinopsis": "Cuando lo familiar y aparentemente seguro se vuelve letal, ahí está el peligro. En medio de un bosque donde las sombras de los muertos permanecen por todas partes, todo colono sabe seguir las Sencillas Reglas: «No prendas llamas, no derrames la sangre de otros y no corras de noche. Esas cosas atraen a las umbras».\nSilencio Montane ha roto las tres reglas en más de una ocasión. Y para proteger a su familia de una banda asesina con grandes recompensas sobre sus cabezas, Silencio romperá todas las reglas nuevamente, a riesgo de convertirse ella misma en una umbra."
+    },
+    {
+        "id": 24,
+        "title": "Sexto del Ocaso",
+        "author": "Brandon Sanderson",
+        "saga": "Arcanum Ilimitado",
+        "sagaOrder": 8,
+        "year": 2016,
+        "sinopsis": "En la letal isla de Patji, donde las aves otorgan a las personas talentos mágicos y los depredadores pueden sentir los pensamientos de sus presas, un trampero solitario descubre que la isla no es lo único que intenta matarlo. Cuando comienza a ver su propio cadáver a cada paso, ¿significa esto un peligro para toda su cultura?"
+    },
+    {
+        "id": 25,
+        "title": "Arcanum Ilimitado",
+        "author": "Brandon Sanderson",
+        "saga": "Arcanum Ilimitado",
+        "sagaOrder": 0,
+        "year": 2016,
+        "sinopsis": "Brandon Sanderson crea mundos, y esos mundos están conectados. Su universo se expande por las sagas El Archivo de las Tormentas y Nacidos de la Bruma (Mistborn), también por obras como Elantris, construyendo una constelación de reinos llamado Cosmere.\nAhora este espectacular volumen recopila, por primera vez, nueve relatos y novelas cortas representativos de cada uno de esos mundos, con sus distintos sistemas de magia. La colección del Cosmere abarca los límites conocidos del universo de Sanderson -incluida una novela corta inédita de El Archivo de las Tormentas, Bailarina del Filo-, así como ilustraciones, notas... y secretos.\nUn viaje único por el cosmos de un autor mítico para sus más de nueve millones de lectores en todo el mundo."
+    },
+    {
+        "id": 26,
+        "title": "Yumi y el Pintor de Pesadillas",
+        "author": "Brandon Sanderson",
+        "saga": "Proyectos Secretos",
+        "sagaOrder": 3,
+        "year": 2023,
+        "sinopsis": "Yumi viene de una tierra de jardines, meditación y espíritus, mientras que Pintor vive en un mundo de oscuridad, tecnología y pesadillas. Cuando de pronto sus vidas se ven extrañamente entrelazadas, ¿podrán dejar de lado sus diferencias y colaborar para descubrir los misterios de su situación y salvar sus respectivas comunidades de un desastre seguro?"
+    },
+    {
+        "id": 27,
+        "title": "El Hombre Iluminado",
+        "author": "Brandon Sanderson",
+        "saga": "Proyectos Secretos",
+        "sagaOrder": 4,
+        "year": 2023,
+        "sinopsis": "Hace años tenía compañeros de armas y una causa en la que creer, pero ahora el hombre que se hace llamar Nómada solo conoce la vida a la fuga. Obligado a saltar de un mundo a otro en el Cosmere cada vez que la implacable Brigada Nocturna le gana demasiado terreno, Nómada acaba en un nuevo planeta y de inmediato se ve implicado en la trifulca entre un tirano y los rebeldes que solo pretenden evitar que los conviertan en esclavos sin mente. Y todo bajo la amenaza constante de un amanecer cuyo calor derrite la misma piedra. Incapaz de comprender su idioma, ¿sabrá navegar el conflicto y obtener el suficiente poder para saltar fuera del planeta antes de que su mente o su cuerpo paguen el precio definitivo?"
+    },
+    {
+        "id": 28,
+        "title": "El Hobbit",
+        "author": "J.R.R. Tolkien",
+        "saga": null,
+        "sagaOrder": null,
+        "year": 1937,
+        "sinopsis": "Bilbo Bolsón es como cualquier hobbit: no mide más de metro y medio, vive pacíficamente en la Comarca, y su máxima aspiración es disfrutar de los placeres sencillos de la vida (comer bien, pasear y charlar con los amigos). Pero su tranquilidad se ve interrumpida cuando el mago Gandalf y un grupo de trece enanos se presentan un día en su casa para involucrarlo en una aventura. Con la ayuda de un mapa misterioso, partirán hacia la Montaña Solitaria con el fin de rescatar el tesoro custodiado por Smaug el Dorado, un terrible y enorme dragón. A pesar de las reticencias de Bilbo a participar en esta búsqueda, pronto descubrirá una temeridad y una habilidad como ladrón que jamás hubiera sospechado poseer."
+    },
+    {
+        "id": 29,
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "saga": "Dune",
+        "sagaOrder": 1,
+        "year": 1965,
+        "sinopsis": "En el desértico planeta Arrakis, el agua es el bien más preciado y llorar a los muertos, el símbolo de máxima prodigalidad. Pero algo hace de Arrakis una pieza estratégica para los intereses del Emperador, las Grandes Casas y la Cofradía, los tres grandes poderes de la galaxia. Arrakis es el único origen conocido de la melange, preciosa especia y uno de los bienes más codiciados del universo.\nAl duque Leto Atreides se le asigna el gobierno de este mundo inhóspito, habitado por los indómitos Fremen y monstruosos gusanos de arena de centenares de metros de longitud. Sin embargo, cuando la familia es traicionada, su hijo y heredero, Paul, emprenderá un viaje hacia un destino más grande del que jamás hubiese podido soñar."
+    },
+    {
+        "id": 30,
+        "title": "Harry Potter y la Piedra Filosofal",
+        "author": "J. K. Rowling",
+        "saga": "Harry Potter",
+        "sagaOrder": 1,
+        "year": 1997,
+        "sinopsis": "<<Con las manos temblorosas, Harry le dio la vuelta al sobre y vio un sello de lacre púrpura con un escudo de armas: un león, un águila, un tejón y una serpiente, que rodeaban una gran letra H.>>\nHarry Potter nunca ha oído hablar de Hogwarts hasta que empiezan a caer cartas en el felpudo del número 4 de Privet Drive. Llevan la dirección escrita con tinta verde en un sobre de pergamino amarillento con un sello de lacre púrpura, y sus horripilantes tíos se apresuran a confiscarlas. Más tarde, el día que Harry cumple once años, Rubeus Hagrid, un hombre gigantesco cuyos ojos brillan como escarabajos negros, irrumpe con una noticia extraordinaria: Harry Potter es un mago, y le han concedido una plaza en el Colegio Hogwarts de Magia y Hechicería. ¡Está a punto de comenzar una aventura increíble!"
+    },
+    {
+        "id": 31,
+        "title": "Harry Potter y la Cámara Secreta",
+        "author": "J. K. Rowling",
+        "saga": "Harry Potter",
+        "sagaOrder": 2,
+        "year": 1998,
+        "sinopsis": "«Hay una conspiración, Harry Potter. Una conspiración para hacer que este año sucedan las cosas más terribles en el Colegio Hogwarts de Magia y Hechicería.»\nEl verano de Harry Potter ha incluido el peor cumpleaños de su vida, las funestas advertencias de un elfo doméstico llamado Dobby y el rescate de casa de los Dursley protagonizado por su amigo Ron Weasley al volante de un coche mágico volador. De vuelta en el Colegio Hogwarts de Magia y Hechicería, donde va a empezar su segundo curso, Harry oye unos extraños susurros que resuenan por los pasillos vacíos. Y entonces empiezan los ataques y varios alumnos aparecen petrificados... Por lo visto, las siniestras predicciones de Dobby se están cumpliendo...."
+    },
+    {
+        "id": 32,
+        "title": "Harry Potter y el Prisionero de Azkaban",
+        "author": "J. K. Rowling",
+        "saga": "Harry Potter",
+        "sagaOrder": 3,
+        "year": 1999,
+        "sinopsis": "«Bienvenido al autobús noctámbulo, transporte de emergencia para el brujo abandonado a su suerte. Levante la varita, suba a bordo y lo llevaremos a donde quiera.»\nCuando el autobús noctámbulo irrumpe en una calle oscura y frena con fuertes chirridos delante de Harry, comienza para él un nuevo curso en Hogwarts, lleno de acontecimientos extraordinarios. Sirius Black, asesino y seguidor de lord Voldemort, se ha fugado, y dicen que va en busca de Harry. En su primera clase de Adivinación, la profesora Trelawney ve un augurio de muerte en las hojas de té de la taza de Harry... Pero quizá lo más aterrador sean los dementores que patrullan por los jardines del colegio, capaces de sorberte el alma con su beso..."
+    },
+    {
+        "id": 33,
+        "title": "Harry Potter y el Cáliz de Fuego",
+        "author": "J. K. Rowling",
+        "saga": "Harry Potter",
+        "sagaOrder": 4,
+        "year": 2000,
+        "sinopsis": "<<Habrá tres pruebas, espaciadas en el curso escolar, que medirán a los campeones en muchos aspectos diferentes: sus habilidades mágicas, su osadía, sus dotes de deducción y, por supuesto, su capacidad para sortear el peligro.>>\nSe va a celebrar en Hogwarts el Torneo de los Tres Magos. Sólo los alumnos mayores de diecisiete años pueden participar en esta competición, pero, aun así, Harry sueña con ganarla. En Halloween, cuando el cáliz de fuego elige a los campeones, Harry se lleva una sorpresa al ver que su nombre es uno de los escogidos por el cáliz mágico. Durante el torneo deberá enfrentarse a desafíos mortales, dragones y magos tenebrosos, pero con la ayuda de Ron y Hermione, sus mejores amigos, ¡quizá logre salir con vida!"
+    },
+    {
+        "id": 34,
+        "title": "Harry Potter y la Órden del Fénix",
+        "author": "J. K. Rowling",
+        "saga": "Harry Potter",
+        "sagaOrder": 5,
+        "year": 2003,
+        "sinopsis": "«El director cree que no es conveniente que eso continúe ocurriendo. Quiere que te enseñe a cerrar tu mente al Señor Tenebroso.»\nSon malos tiempos para Hogwarts. Tras el ataque de los dementores a su primo Dudley, Harry Potter comprende que Voldemort no se detendrá ante nada para encontrarlo. Muchos niegan que el Señor Tenebroso haya regresado, pero Harry no está solo: una orden secreta se reúne en Grimmauld Place para luchar contra las fuerzas oscuras. Harry debe permitir que el profesor Snape le enseñe a protegerse de las brutales incursiones de Voldemort en su mente. Pero éstas son cada vez más potentes, y a Harry se le está agotando el tiempo..."
+    },
+    {
+        "id": 35,
+        "title": "Harry Potter y el Misterio del Príncipe",
+        "author": "J. K. Rowling",
+        "saga": "Harry Potter",
+        "sagaOrder": 6,
+        "year": 2006,
+        "sinopsis": "Con dieciseis años cumplidos, Harry inicia el sexto curso en Hogwarts en medio de terribles acontecimientos que asolan Inglaterra. Elegido capitán del equipo de quidditch, los ensayos, los exámenes y las chicas ocupan todo su tiempo, pero la tranquilidad dura poco.\nA pesar de los ferreos controles de seguridad que protegen la escuela, dos alumnos son brutalmente atacados. Dumbledore sabe que se acerca el momento, anunciado por la Profecía, en que Harry y Voldemort se enfrentarán a muerte: <<El único con poder para vencer al Señor Tenebroso se acerca... Uno de los dos debe morir a manos del otro, pues ninguno de los dos podrá vivir mientras siga el otro con vida.>>\nEl anciano director solicitará la ayuda de Harry y juntos emprenderán peligrosos viajes para intentar debilitar al enemigo, para lo cual el joven mago contará con un viejo libro de pociones perteneciente a un misterioso personaje, alguien que se hace llamar Príncipe Mestizo."
+    },
+    {
+        "id": 36,
+        "title": "Viento y Verdad",
+        "author": "Brandon Sanderson",
+        "saga": "El Archivo de las Tormentas",
+        "sagaOrder": 5,
+        "year": 2024,
+        "sinopsis": "Dalinar Kholin desafió al malvado dios Odium a un duelo de campeones en el que se decidirá el futuro de Roshar. Los Caballeros Radiantes solo tienen diez días para prepararse... y la repentina ascensión del taimado e implacable Taravangian al puesto de Odium lo ha sumido todo en una tremenda confusión.\nLa lucha desesperada prosigue simultáneamente a lo largo y ancho del mundo: Adolin en Azimir, Sigzil y Venli en las Llanuras Quebradas y Jasnah en Ciudad Thaylen. El exasesino Seth deberá purgar Shinovar, su tierra natal, de la oscura influencia de los Deshechos. Lo acompaña Kaladin, que afronta una nueva batalla ayudando a Seth a combatir sus propios demonios... y tendrá que hacer lo mismo con Ishar, el demente Heraldo del Todopoderoso.\nAl mismo tiempo, Shallan, Renarin y Rlain se esfuerzan en desentrañar el misterio que hay tras la Deshecha Ba-Ado-Mishram, el de qué papel tuvo en la esclavización de la especie cantora y en el hecho de que los antiguos Caballeros Radiantes mataran a sus spren. Y Dalinar y Navani buscan una ventaja contra el campeón de Odium que solo puede hallarse en el Reino Espiritual, donde el recuerdo y la posibilidad se combinan en el caos. El destino de todo el Cosmere pende de un hilo."
+    },
+    {
+        "id": 37,
+        "title": "Harry Potter y las Reliquias de la Muerte",
+        "author": "J. K. Rowling",
+        "saga": "Harry Potter",
+        "sagaOrder": 7,
+        "year": 2007,
+        "sinopsis": "<<Entregadme a Harry Potter -dijo la voz de Voldemort- y nadie sufrirá ningún daño. Entregadme a Harry Potter y dejare el colegio intacto. Entregadme a Harry Potter y sereis recompensados.>>\nCuando se monta en el sidecar de la moto de Hagrid y se eleva en el cielo, dejando Privet Drive por última vez, Harry Potter sabe que lord Voldemort y sus mortífagos se hallan cerca. El encantamiento protector que había mantenido a salvo a Harry se ha roto, pero el no puede seguir escondiendose. El Señor Tenebroso se dedica a aterrorizar a todos los seres queridos de Harry, y, para detenerlo, este habrá de encontrar y destruir los horrocruxes que quedan. La batalla definitiva debe comenzar: Harry tendrá que alzarse y enfrentarse a su enemigo..."
+    }
+
+]
