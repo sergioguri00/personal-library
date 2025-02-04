@@ -1,7 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import BooksGrid from "@/components/BooksGrid.astro";
+import books from "@/data/books.json";
 ---
 
 <Layout title="Biblioteca personal 📚">
-  <h1>Bienvenido a mi biblioteca personal 📚</h1>
+  <h1
+    class="w-full text-xl lg:text-3xl font-semibold text-center uppercase text-[#FFEE8C]"
+  >
+    Bienvenido a mi biblioteca personal 📚
+  </h1>
+  <BooksGrid books={books} />
 </Layout>

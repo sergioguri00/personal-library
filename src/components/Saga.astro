@@ -1,0 +1,25 @@
+---
+import SameSaga from "./SameSaga.astro";
+const { saga, books } = Astro.props;
+const sagaBooks = books
+  .filter((book: any) => book.saga === saga || book.saga?.includes(saga))
+  .sort((a: any, b: any) => {
+    const orderA = Array.isArray(a.sagaOrder)
+      ? a.sagaOrder[a.saga.indexOf(saga)]
+      : a.sagaOrder;
+    const orderB = Array.isArray(b.sagaOrder)
+      ? b.sagaOrder[b.saga.indexOf(saga)]
+      : b.sagaOrder;
+
+    return orderA - orderB;
+  });
+---
+
+<section class="py-10 px-4">
+  <h1
+    class="border-b-2 border-[#FFEE8C] text-lg font-semibold text-center uppercase text-[#FFEE8C] pb-2"
+  >
+    Saga completa
+  </h1>
+  <SameSaga books={sagaBooks} />
+</section>

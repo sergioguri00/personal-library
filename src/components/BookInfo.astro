@@ -1,0 +1,102 @@
+---
+const { book } = Astro.props
+---
+
+<section transition:name={`book-${book.id}`} class="px-2 lg:px-24">
+    <h1 class="text-2xl font-semibold text-center uppercase text-[#FFEE8C] lg:mb-4">
+      {book.title}
+    </h1>
+    <div class="grid grid-info w-full justify-center items-start h-full">
+      <div class="flex flex-col justify-center items-center">
+        <img
+          src={`/src/data/covers/${book.id}.webp`}
+          alt={book.title}
+          class="w-72 h-[441px] sm:w-[325px] sm:h-[500px] object-fit"
+        />
+      </div>
+      <div class="flex flex-col gap-2 justify-center">
+        <div class="text-center lg:text-start">
+          <p class="text-[#FFEE8C] font-semibold">Autor</p>
+          <p>{book.author}</p>
+        </div>
+        <div class="text-center lg:text-start">
+          <p class="text-[#FFEE8C] font-semibold">Año de publicación</p>
+          <p>{book.year}</p>
+        </div>
+        {( book.saga !== null ? 
+            (
+              typeof(book.saga) === 'object' ?
+                <div class="text-center lg:text-start">
+                    <div>
+                        <p class="text-[#FFEE8C] font-semibold">Sagas</p>
+                        {(
+                        book.saga.map((saga: string, index: number) => (
+                            <p>{`${saga} #${book.sagaOrder[index]}`}</p>
+                        )) 
+                        )}
+                    </div>
+                    <p class="text-[#FFEE8C] font-semibold">Saga</p>
+                    <p>{`${book.saga} #${book.sagaOrder}`}</p>
+                </div>
+                :
+                <div class="text-center lg:text-start">
+                    <div>
+                        <p class="text-[#FFEE8C] font-semibold">Saga</p>
+                        <p>{`${book.saga} #${book.sagaOrder}`}</p>
+                    </div>
+                </div>
+            )
+            : null
+        )}
+        <div class="text-center lg:text-start">
+          <p class="text-[#FFEE8C] font-semibold">Sinopsis</p>
+          {
+            book.sinopsis.length > 500 ? (
+              <p id="holaaa">
+                {book.sinopsis.slice(0, 500)}<span id="...">...</span><span id="moreSinopsis" class="hidden">{book.sinopsis.slice(500, book.sinopsis.length)}</span>
+              </p>
+              <button id="know-more-button" class="mt-2 rounded-2xl bg-[#FFEE8C] p-2 text-[#00001B] cursor-pointer hover:scale-105 transition">Saber más</button>
+            ) : (
+              <p>{book.sinopsis}</p>
+            )
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+<style>
+    .grid-info {
+      grid-template-rows: 475px 1fr;
+    }
+    @media (width >= 40rem /* 640px */) {
+        .grid-info {
+            grid-template-rows: 525px 1fr;
+        }
+    }
+    @media (width >= 64rem /* 1024px */) {
+        .grid-info {
+            grid-template-columns: 500px 500px;
+        }
+    }
+  </style>
+  
+  <script>
+      document.addEventListener("astro:page-load", () => {
+        const grid = document.getElementsByClassName("grid-info")[0] as HTMLElement;
+        const knowMoreButton = document.getElementById("know-more-button");
+        const sinopsis = document.getElementById("holaaa") as HTMLElement;
+        const firstHeight = sinopsis.offsetHeight;
+        knowMoreButton?.addEventListener("click", () => {
+          const moreSinopsis = document.getElementById("moreSinopsis");
+          const sinopsis = document.getElementById("holaaa") as HTMLElement;
+          const points = document.getElementById("...");
+          points?.classList.add("hidden");
+          moreSinopsis?.classList.remove("hidden");
+          knowMoreButton?.classList.add("hidden");
+          const secondHeight = sinopsis.offsetHeight;
+          grid.style.height = `${grid.offsetHeight + (secondHeight - firstHeight)}px`;
+        });
+      });
+  </script>

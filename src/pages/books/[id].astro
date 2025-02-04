@@ -1,0 +1,34 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import BookInfo from "@/components/BookInfo.astro";
+import Saga from "@/components/Saga.astro";
+import books from "@/data/books.json";
+
+export function getStaticPaths() {
+  const paths = books.map((book: any) => ({
+    params: {
+      id: book.id,
+    },
+  }));
+  return paths;
+}
+
+const { id } = Astro.params;
+const book = books[id - 1];
+---
+
+<Layout title={book.title}>
+  <BookInfo book={book} />
+
+  <footer>
+    {
+      book.saga !== null ? (
+        typeof book.saga === "object" ? (
+          book.saga.map((saga: string) => <Saga books={books} saga={saga} />)
+        ) : (
+          <Saga books={books} saga={book.saga} />
+        )
+      ) : null
+    }
+  </footer>
+</Layout>

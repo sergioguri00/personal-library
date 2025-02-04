@@ -66,8 +66,8 @@
         "id": 8,
         "title": "Danzante del Filo",
         "author": "Brandon Sanderson",
-        "saga": "El Archivo de las Tormentas",
-        "sagaOrder": 2.5,
+        "saga": ["El Archivo de las Tormentas", "Arcanum Ilimitado"],
+        "sagaOrder": [2.5, 10],
         "year": 2016,
         "sinopsis": "Tres años atrás, Lift le pidió a una diosa que detuviese su envejecimiento, un deseo que ella creía concedido. Ahora, en Danzante del Filo, la apenas adolescente y recién Caballera Radiante descubre que el tiempo no se detiene para nadie. Aunque el joven emperador azishiano le garantizase su seguridad de su ejecutor, que ella solo conoce como Oscuridad, la vida en la corte está sofocando el espíritu libre de Lift, quien no puede evitar dirigirse a Yeddaw cuando escucha que el implacable Oscuridad se encuentra allí dando caza a gente como ella con poderes recientemente descubiertos. Los oprimidos en Yeddaw no tienen defensor, y Lift sabe que debe aceptar esta increíble responsabilidad."
     },

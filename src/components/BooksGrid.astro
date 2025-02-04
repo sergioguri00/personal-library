@@ -1,0 +1,28 @@
+---
+const { books } = Astro.props;
+
+interface Book {
+  id: number;
+  title: string;
+}
+---
+
+<section
+  class="mt-10 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 justify-center items-center w-full gap-y-4 px-10"
+>
+  {
+    books.map((book: Book) => (
+      <a
+        transition:name={`book-${book.id}`}
+        href={`/books/${book.id}`}
+        class="flex justify-center items-center"
+      >
+        <img
+          src={`/src/data/covers/${book.id}.webp`}
+          alt={book.title}
+          class="w-48 h-72 object-fit hover:scale-105 transition"
+        />
+      </a>
+    ))
+  }
+</section>
