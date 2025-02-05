@@ -91,20 +91,22 @@ const { book } = Astro.props
       const knowMoreButton = document.getElementById("know-more-button");
       const sinopsis = document.getElementById("holaaa") as HTMLElement;
       const firstHeightSinopsis = sinopsis.offsetHeight;
+      const gridInfoStyle = getComputedStyle(grid_info);
+
       knowMoreButton?.addEventListener("click", () => {
-      const moreSinopsis = document.getElementById("moreSinopsis");
-      const sinopsis = document.getElementById("holaaa") as HTMLElement;
-      const points = document.getElementById("...");
-      points?.classList.add("hidden");
-      moreSinopsis?.classList.remove("hidden");
-      knowMoreButton?.classList.add("hidden");
-      const secondHeightSinopsis = sinopsis.offsetHeight;
-      if ((gridInfoHeight <= 500) && (gridHeight + (secondHeightSinopsis - firstHeightSinopsis) > 500)) 
-          grid_info.style.height = `${gridHeight + (secondHeightSinopsis - firstHeightSinopsis)}px`;
-      else {
+        const moreSinopsis = document.getElementById("moreSinopsis");
+        const sinopsis = document.getElementById("holaaa") as HTMLElement;
+        const points = document.getElementById("...");
+        points?.classList.add("hidden");
+        moreSinopsis?.classList.remove("hidden");
+        knowMoreButton?.classList.add("hidden");
+        const sinopsisDiff = sinopsis.offsetHeight - firstHeightSinopsis;
         const imageHeight = document.querySelector("img")?.offsetHeight;
-        grid_info.style.height = `${gridInfoHeight + (secondHeightSinopsis - firstHeightSinopsis) + (imageHeight || 0)}px`;
-      }
+        if ((gridInfoStyle.gridTemplateColumns.split(" ").length > 1) && (gridHeight + sinopsisDiff > 500)) 
+          grid_info.style.height = `${gridHeight + sinopsisDiff}px`;
+        else if ((gridInfoStyle.gridTemplateRows.split(" ").length > 1) && (gridInfoHeight + sinopsisDiff + (imageHeight || 0)) > 500){
+          grid_info.style.height = `${gridInfoHeight + sinopsisDiff + (imageHeight || 0)}px`;
+        }
       });
     };
 
