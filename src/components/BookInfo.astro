@@ -88,8 +88,6 @@ const { book } = Astro.props
       const grid_info = document.querySelector(".grid-info") as HTMLElement;
       const gridInfoHeight = gridInfo.offsetHeight;
       const gridHeight = gridInfoHeight - 60;
-      console.log(gridInfoHeight);
-      console.log(gridHeight);
       const knowMoreButton = document.getElementById("know-more-button");
       const sinopsis = document.getElementById("holaaa") as HTMLElement;
       const firstHeightSinopsis = sinopsis.offsetHeight;
@@ -101,13 +99,8 @@ const { book } = Astro.props
       moreSinopsis?.classList.remove("hidden");
       knowMoreButton?.classList.add("hidden");
       const secondHeightSinopsis = sinopsis.offsetHeight;
-      console.log(gridInfoHeight);
-      console.log(gridHeight);
-      console.log(firstHeightSinopsis, secondHeightSinopsis);
-      if ((gridInfoHeight <= 500) && (gridHeight + (secondHeightSinopsis - firstHeightSinopsis) > 500)) {
-          console.log("jiji")
+      if ((gridInfoHeight <= 500) && (gridHeight + (secondHeightSinopsis - firstHeightSinopsis) > 500)) 
           grid_info.style.height = `${gridHeight + (secondHeightSinopsis - firstHeightSinopsis)}px`;
-      }
       else {
         const imageHeight = document.querySelector("img")?.offsetHeight;
         grid_info.style.height = `${gridInfoHeight + (secondHeightSinopsis - firstHeightSinopsis) + (imageHeight || 0)}px`;
