@@ -20,7 +20,7 @@ const book = books[id - 1];
 <Layout title={book.title}>
   <BookInfo book={book} />
 
-  <footer>
+  <footer class="py-4">
     {
       book.saga !== null ? (
         typeof book.saga === "object" ? (
