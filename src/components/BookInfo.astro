@@ -6,7 +6,7 @@ const { book } = Astro.props
     <h1 class="text-2xl font-semibold text-center uppercase text-[#FFEE8C] lg:mb-4">
       {book.title}
     </h1>
-    <div class="grid grid-info w-full justify-center items-start h-full">
+    <div id="gridInfo" class="grid grid-rows-[475px_1fr] sm:grid-rows-[525px_1fr] lg:grid-cols-[500px_500px] lg:grid-rows-none w-full justify-center items-start h-full">
       <div class="flex flex-col justify-center items-center">
         <img
           src={`/covers/${book.id}.webp`}
@@ -14,7 +14,7 @@ const { book } = Astro.props
           class="w-72 h-[441px] sm:w-[325px] sm:h-[500px] object-fit"
         />
       </div>
-      <div id="gridInfo" class="flex flex-col gap-2">
+      <div id="gridInfoText" class="flex flex-col gap-2">
         <div class="text-center lg:text-start">
           <p class="text-[#FFEE8C] font-semibold">Autor</p>
           <p>{book.author}</p>
@@ -64,34 +64,17 @@ const { book } = Astro.props
       </div>
     </div>
   </section>
-
-  
-<style>
-    .grid-info {
-      grid-template-rows: 475px 1fr;
-    }
-    @media (width >= 40rem /* 640px */) {
-        .grid-info {
-            grid-template-rows: 525px 1fr;
-        }
-    }
-    @media (width >= 64rem /* 1024px */) {
-        .grid-info {
-            grid-template-columns: 500px 500px;
-        }
-    }
-  </style>
   
   <script>
-    const loadScript = () => {
+    document.addEventListener("astro:page-load", () => {
+      const gridInfoText = document.getElementById("gridInfoText") as HTMLElement;
       const gridInfo = document.getElementById("gridInfo") as HTMLElement;
-      const grid_info = document.querySelector(".grid-info") as HTMLElement;
-      const gridInfoHeight = gridInfo.offsetHeight;
-      const gridHeight = gridInfoHeight - 60;
+      const gridInfoTextHeight = gridInfoText.offsetHeight;
+      const gridHeight = gridInfoTextHeight - 60;
       const knowMoreButton = document.getElementById("know-more-button");
       const sinopsis = document.getElementById("holaaa") as HTMLElement;
       const firstHeightSinopsis = sinopsis.offsetHeight;
-      const gridInfoStyle = getComputedStyle(grid_info);
+      const gridInfoStyle = getComputedStyle(gridInfo);
 
       knowMoreButton?.addEventListener("click", () => {
         const moreSinopsis = document.getElementById("moreSinopsis");
@@ -102,15 +85,10 @@ const { book } = Astro.props
         knowMoreButton?.classList.add("hidden");
         const sinopsisDiff = sinopsis.offsetHeight - firstHeightSinopsis;
         const imageHeight = document.querySelector("img")?.offsetHeight;
-        if ((gridInfoStyle.gridTemplateColumns.split(" ").length > 1) && (gridHeight + sinopsisDiff > 500)) 
-          grid_info.style.height = `${gridHeight + sinopsisDiff}px`;
-        else if ((gridInfoStyle.gridTemplateRows.split(" ").length > 1) && (gridInfoHeight + sinopsisDiff + (imageHeight || 0)) > 500){
-          grid_info.style.height = `${gridInfoHeight + sinopsisDiff + (imageHeight || 0)}px`;
-        }
+        if ((gridInfoStyle.gridTemplateColumns.split(" ").length > 1) && (gridHeight + sinopsisDiff > 500))
+          gridInfo.style.height = `${gridHeight + sinopsisDiff}px`;
+        else if ((gridInfoStyle.gridTemplateRows.split(" ").length > 1) && (gridInfoTextHeight + sinopsisDiff + (imageHeight || 0)) > 500)
+          gridInfo.style.height = `${gridInfoTextHeight + sinopsisDiff + (imageHeight || 0)}px`;
       });
-    };
-
-    document.addEventListener("astro:before-swap", loadScript);
-    document.addEventListener("astro:before-preparation", loadScript);
-    document.addEventListener("astro:page-load", loadScript);
+    });
   </script>
