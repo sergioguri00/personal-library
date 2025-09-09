@@ -68,25 +68,31 @@ const { book } = Astro.props
   </section>
   
   <script>
-    document.addEventListener("astro:page-load", () => {
+    function initializeBookInfo() {
       const gridInfoText = document.getElementById("gridInfoText") as HTMLElement;
       const gridInfo = document.getElementById("gridInfo") as HTMLElement;
-      const gridInfoTextHeight = gridInfoText.offsetHeight;
-      const gridHeight = gridInfoTextHeight - 20;
       const knowMoreButton = document.getElementById("know-more-button");
       const sinopsis = document.getElementById("holaaa") as HTMLElement;
+
+      if (!gridInfoText || !gridInfo || !sinopsis || !knowMoreButton) return;
+
+      const gridInfoTextHeight = gridInfoText.offsetHeight;
+      const gridHeight = gridInfoTextHeight - 20;
       const firstHeightSinopsis = sinopsis.offsetHeight;
       const gridInfoStyle = getComputedStyle(gridInfo);
 
-      knowMoreButton?.classList.remove("hidden");
+      knowMoreButton.classList.remove("hidden");
 
-      knowMoreButton?.addEventListener("click", () => {
+      knowMoreButton.replaceWith(knowMoreButton.cloneNode(true));
+      const newKnowMoreButton = document.getElementById("know-more-button");
+
+      newKnowMoreButton?.addEventListener("click", () => {
         const moreSinopsis = document.getElementById("moreSinopsis");
         const sinopsis = document.getElementById("holaaa") as HTMLElement;
         const points = document.getElementById("...");
         points?.classList.add("hidden");
         moreSinopsis?.classList.remove("hidden");
-        knowMoreButton?.classList.add("hidden");
+        newKnowMoreButton?.classList.add("hidden");
         const sinopsisDiff = sinopsis.offsetHeight - firstHeightSinopsis;
         const imageHeight = document.querySelector("img")?.offsetHeight;
         if ((gridInfoStyle.gridTemplateColumns.split(" ").length > 1) && (gridHeight + sinopsisDiff > 500))
@@ -94,5 +100,14 @@ const { book } = Astro.props
         else if ((gridInfoStyle.gridTemplateRows.split(" ").length > 1) && (gridInfoTextHeight + sinopsisDiff + (imageHeight || 0)) > 500)
           gridInfo.style.height = `${gridInfoTextHeight + sinopsisDiff + (imageHeight || 0)}px`;
       });
-    });
+    }
+
+    document.addEventListener("DOMContentLoaded", initializeBookInfo);
+    document.addEventListener("astro:page-load", initializeBookInfo);
+    document.addEventListener("astro:after-swap", initializeBookInfo);
+    
+    if (document.readyState === 'loading') {
+    } else {
+      initializeBookInfo();
+    }
   </script>
