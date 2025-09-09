@@ -57,7 +57,7 @@ const { book } = Astro.props
               <p id="holaaa">
                 {book.sinopsis.slice(0, 500)}<span id="...">...</span><span id="moreSinopsis" class="hidden">{book.sinopsis.slice(500, book.sinopsis.length)}</span>
               </p>
-              <button id="know-more-button" class="mt-2 rounded-2xl bg-[#FFEE8C] p-2 text-[#00001B] cursor-pointer hover:scale-105 transition">Saber más</button>
+              <button id="know-more-button" class="hidden mt-2 rounded-2xl bg-[#FFEE8C] p-2 text-[#00001B] cursor-pointer hover:scale-105 transition">Saber más</button>
             ) : (
               <p>{book.sinopsis}</p>
             )
@@ -72,11 +72,13 @@ const { book } = Astro.props
       const gridInfoText = document.getElementById("gridInfoText") as HTMLElement;
       const gridInfo = document.getElementById("gridInfo") as HTMLElement;
       const gridInfoTextHeight = gridInfoText.offsetHeight;
-      const gridHeight = gridInfoTextHeight - 60;
+      const gridHeight = gridInfoTextHeight - 20;
       const knowMoreButton = document.getElementById("know-more-button");
       const sinopsis = document.getElementById("holaaa") as HTMLElement;
       const firstHeightSinopsis = sinopsis.offsetHeight;
       const gridInfoStyle = getComputedStyle(gridInfo);
+
+      knowMoreButton?.classList.remove("hidden");
 
       knowMoreButton?.addEventListener("click", () => {
         const moreSinopsis = document.getElementById("moreSinopsis");
