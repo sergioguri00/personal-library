@@ -28,15 +28,17 @@ const { book } = Astro.props
               typeof(book.saga) === 'object' ?
                 <div class="text-center lg:text-start">
                     <div>
+                    {book.saga.length > 1 ? (
                         <p class="text-[#FFEE8C] font-semibold">Sagas</p>
-                        {(
-                        book.saga.map((saga: string, index: number) => (
-                            <p>{`${saga} #${book.sagaOrder[index]}`}</p>
-                        )) 
-                        )}
+                    ) : (
+                        <p class="text-[#FFEE8C] font-semibold">Saga</p>
+                    )}
+                    {(
+                          book.saga.map((saga: string, index: number) => (
+                              <p>{`${saga} #${book.sagaOrder[index]}`}</p>
+                          ))
+                    )}
                     </div>
-                    <p class="text-[#FFEE8C] font-semibold">Saga</p>
-                    <p>{`${book.saga} #${book.sagaOrder}`}</p>
                 </div>
                 :
                 <div class="text-center lg:text-start">
