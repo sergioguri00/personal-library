@@ -1,5 +1,6 @@
 ---
 const { book } = Astro.props
+const base = import.meta.env.BASE_URL;
 ---
 
 <section transition:name={`book-${book.id}`} class="px-4 lg:px-24">
@@ -9,7 +10,7 @@ const { book } = Astro.props
     <div id="gridInfo" class="grid grid-rows-[475px_1fr] sm:grid-rows-[525px_1fr] lg:grid-cols-[500px_500px] lg:grid-rows-none w-full justify-center items-start h-full">
       <div class="flex flex-col justify-center items-center">
         <img
-          src={`/covers/${book.id}.webp`}
+          src={`${base}/covers/${book.id}.webp`}
           alt={book.title}
           class="w-72 h-[441px] sm:w-[325px] sm:h-[500px] object-fit"
         />

@@ -1,17 +1,18 @@
 ---
 const page = Astro.url.pathname;
+const base = import.meta.env.BASE_URL;
 ---
 
 <nav class="flex flex-row justify-center gap-4 py-10">
   <a
-    href="/"
-    class={page === "/"
+    href={base}
+    class={page === base
       ? "text-[#FFEE8C] border-b-[1px] border-[#FFEE8C]"
       : "text-white hover:text-[#FFEE8C] hover:scale-105 transition"}>Inicio</a
   >
   <a
-    href="/about"
-    class={page === "/about"
+    href={`${base}/about`}
+    class={page === `${base}/about`
       ? "text-[#FFEE8C] border-b-[1px] border-[#FFEE8C]"
       : "text-white hover:text-[#FFEE8C] hover:scale-105 transition"}
     >Acerca de</a

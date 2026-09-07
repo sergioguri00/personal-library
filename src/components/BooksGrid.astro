@@ -1,5 +1,6 @@
 ---
 const { books } = Astro.props;
+const base = import.meta.env.BASE_URL;
 
 interface Book {
   id: number;
@@ -14,11 +15,11 @@ interface Book {
     books.map((book: Book) => (
       <a
         transition:name={`book-${book.id}`}
-        href={`/books/${book.id}`}
+        href={`${base}/books/${book.id}`}
         class="flex justify-center items-center"
       >
         <img
-          src={`/covers/${book.id}.webp`}
+          src={`${base}/covers/${book.id}.webp`}
           alt={book.title}
           class="w-48 h-72 object-fit hover:scale-105 transition"
         />
